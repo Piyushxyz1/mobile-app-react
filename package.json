@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Piyushxyz1/mobile-app-react/issues"
   },
-  "homepage": "https://github.com/Piyushxyz1/mobile-app-react#readme"
+  "homepage": "https://github.com/Piyushxyz1/mobile-app-react#readme",
+  "dependencies": {
+    
+  }
 }
