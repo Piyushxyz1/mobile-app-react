@@ -20,7 +20,7 @@ const syncUser = inngest.createFunction(
             wishlist: [],
         };
 
-        await User.create(newUser);
+        await Users.create(newUser);
     }
 );
 
@@ -31,7 +31,7 @@ const deleteUserFromDB = inngest.createFunction(
         await connectDB();
 
         const { id } = event.data;
-        await User.deleteOne({ clerkId: id });
+        await Users.deleteOne({ clerkId: id });
     }
 );
 
