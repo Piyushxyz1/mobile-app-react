@@ -9,6 +9,7 @@ import { functions,inngest } from './config/inngest.js';
 
 
 const app = express();
+app.use(express.json())
 app.use(cors());
 app.use(clerkMiddleware());
 const __dirname = path.resolve();
